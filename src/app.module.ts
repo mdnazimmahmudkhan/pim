@@ -6,6 +6,8 @@ import { AttributesModule } from './attributes/attributes.module';
 import { CategoriesModule } from './categories/categories.module';
 import { ProductsModule } from './products/products.module';
 import { TaxesModule } from './taxes/taxes.module';
+import { UnitsModule } from './units/units.module';
+import { AuthorsModule } from './authors/authors.module';
 
 
 @Module({
@@ -18,7 +20,9 @@ import { TaxesModule } from './taxes/taxes.module';
     AttributesModule,
     CategoriesModule,
     ProductsModule,
-    TaxesModule
+    TaxesModule,
+    UnitsModule,
+    AuthorsModule
   ],
 })
 export class AppModule {}
