@@ -15,7 +15,7 @@ import { AuthorsModule } from './authors/authors.module';
     ConfigModule.forRoot({
       envFilePath: ['.env.development', '.env.production'],
     }),
-    MongooseModule.forRoot('mongodb://127.0.0.1:27017/pim'),
+    // MongooseModule.forRoot('mongodb://127.0.0.1:27017/pim'),
     BrandsModule,
     AttributesModule,
     CategoriesModule,
