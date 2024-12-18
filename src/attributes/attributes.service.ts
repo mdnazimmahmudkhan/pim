@@ -3,13 +3,13 @@ import { CreateAttributeDto } from './dto/create-attribute.dto';
 import { UpdateAttributeDto } from './dto/update-attribute.dto';
 
 @Injectable()
-export class AttributeService {
+export class AttributesService {
   create(createAttributeDto: CreateAttributeDto) {
     return 'This action adds a new attribute';
   }
 
   findAll() {
-    return `This action returns all attribute`;
+    return `This action returns all attributes`;
   }
 
   findOne(id: number) {
